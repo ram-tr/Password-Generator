@@ -1,0 +1,39 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+    margin: 30px 0;
+    grid-gap: 10px;
+}
+
+.items{
+    display: flex;
+}
+
+.btn_container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.button{
+    font-family: serif;
+    font-size: 30px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    background: linear-gradient(to right , #33b248ca , #5adbb6b7 );
+    outline: none;
+    border: none;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button:active{
+    margin-top: 11px;
+    background: linear-gradient(to right , #33b249 , #5adbb4e5);
+}

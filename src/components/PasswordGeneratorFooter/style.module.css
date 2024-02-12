@@ -1,0 +1,26 @@
+
+.root{
+    display: flex;
+    padding: 40px;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.pasteIcon{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 25px;
+}
+
+.msg{
+    font-size: 13px;
+    position: absolute;
+    right: 25px;
+    top: 30px;
+}
+
+
